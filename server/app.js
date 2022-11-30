@@ -1,6 +1,8 @@
 const express = require('express')
 const app = express()
 
+require('express-ws')(app)
+app.use('/static', express.static('static'))
 app.use(require('./router'))
 
 app.listen(3000, () => {

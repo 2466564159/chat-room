@@ -10,6 +10,7 @@
   "author": "zhu2466564159 <2466564159@qq.com>",
   "license": "ISC",
   "dependencies": {
-    "express": "4"
+    "express": "4",
+    "express-ws": "^5.0.2"
   }
 }
